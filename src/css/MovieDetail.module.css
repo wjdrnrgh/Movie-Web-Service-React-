@@ -1,0 +1,88 @@
+@import "./reset.css";
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    width: 1200px;
+    margin: 25px auto 0 auto;
+    display: flex;
+    font-family: "Pretendard Variable";
+    font-size: 16px;
+}
+.dummyBox{
+    width: 100%;
+    height: 60px;
+}
+.coverImg{
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px 5px rgb(0 0 0 / 30%);
+}
+.contentWrap{
+    width: 100%;
+    padding: 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titleBox h1{
+    font-size: 2rem;
+    text-align: center;
+}
+.titleBox h2{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 5px;
+}
+.titleBox ul{
+    text-align: center;
+    margin-top: 5px;
+}
+.titleBox ul > li{
+    display: inline-block;
+    margin: 0px  5px;
+    color: #a8a8a8;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.description{
+    text-align: center;
+}
+.downloadBox{
+    text-align: center;
+    display: block;
+}
+.downloadBox > h2{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.downloadBtn{
+    display: inline-block;
+    padding: 7.5px 30px;
+    margin: 0 30px;
+    border-radius: 5px;
+    background-color: #fae100;
+    color: #000000;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+.subInfo{
+    margin-top: 30px;
+    text-align: center;
+}
+.subInfo p{
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+.subInfo span{
+    padding: 4px 8px;
+    border-radius: 5px;
+    background-color: #fae100;
+    color: #000000;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
